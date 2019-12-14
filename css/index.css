@@ -228,3 +228,52 @@ nav a {
 #box-ten {
     background-color: dodgerblue;
 }
+
+/* ABOUT PAGE CODE BELOW */
+
+.jumbo-about {
+    margin-bottom: 3%;
+}
+
+.about-paragraph {
+    border-bottom: 1px black dashed;
+    padding-bottom: 3%;
+    padding-left: 2%;
+}
+
+.subheading {
+    padding-left: 2%;
+}
+
+.strategy-row {
+    display: flex;
+}
+
+.strategy-one, .strategy-two, .strategy-three, .strategy-four {
+    display:flex;
+    flex-direction: column;
+    margin: 2%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
+
+.strategy-row h2 {
+    padding-top: 5%;
+}
+
+.learn-more {
+    text-decoration: none;
+    border: solid black 2px;
+    width: 30%;
+    height: 35px;
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 5%;
+}
+
+.bottom-section {
+    margin: 4% 2% 4% 2%;
+}
