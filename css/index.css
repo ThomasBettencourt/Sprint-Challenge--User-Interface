@@ -174,6 +174,12 @@ nav a {
     color: black;
   
 }
+
+nav a:hover {
+    color: red;
+    font-weight: bold;
+}
+
 .bottom-content {
     margin-top: 5%;
 }
@@ -197,7 +203,7 @@ nav a {
     background-color: gold;
 }
 
-.#box-three {
+#box-three {
     background-color: cadetblue;
 }
 
@@ -274,6 +280,54 @@ nav a {
     margin-top: 5%;
 }
 
+.learn-more:hover {
+    background-color: black;
+    color: white;
+    border: 2px red solid;
+}
+
 .bottom-section {
     margin: 4% 2% 4% 2%;
+}
+
+/* KEYFRAME ANIMATION */ 
+
+#box-one, #box-two, #box-three, #box-four, #box-five, #box-six, #box-seven, #box-eight, #box-nine, #box-ten {
+    animation-name: box-animation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box-animation {
+    10%{
+        border: 5px solid teal;
+    }
+    20%{    
+        border: 5px solid gold;
+    }
+    30%{
+        border: 5px solid cadetblue;
+    }
+    40%{
+        border: 5px solid coral;
+    }
+    50%{
+        border: 5px solid crimson;
+    }
+    60%{
+        border: 5px solid forestgreen;
+    }
+    70%{
+        border: 5px solid darkorchid;
+    }
+    80%{
+        border: 5px solid hotpink;
+    }
+    90%{
+        border: 5px solid indigo;
+    }
+    100%{
+        border: 5px solid dodgerblue;
+    }
+
 }
