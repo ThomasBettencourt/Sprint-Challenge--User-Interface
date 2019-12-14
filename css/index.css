@@ -144,3 +144,190 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+body {
+    
+    width: 800px;
+    margin: 0% 10% 0% 20%;
+}
+
+.header {
+   
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 5%;
+
+}
+
+nav {
+   
+    width: 80%;
+    margin-top: 3%;
+    padding-top:2%;
+}
+  
+
+nav a {
+    padding-left: 10%;
+    text-decoration: none;
+    color: black;
+  
+}
+
+nav a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.bottom-content {
+    margin-top: 5%;
+}
+.logo {
+    margin-top: 3%;
+}
+
+.jumbo {
+    margin-bottom: 5%;
+}
+
+.top-content {
+    border-bottom: 1px dotted black;
+}
+
+#box-one {
+    background-color: teal
+}
+
+#box-two {
+    background-color: gold;
+}
+
+#box-three {
+    background-color: cadetblue;
+}
+
+#box-four {
+    background-color: coral;
+}
+
+#box-five {
+    background-color: crimson;
+}
+
+#box-six {
+    background-color: forestgreen;
+}
+
+#box-seven {
+    background-color: darkorchid;
+}
+
+#box-eight {
+    background-color: hotpink;
+}
+
+#box-nine {
+    background-color: indigo;
+}
+
+#box-ten {
+    background-color: dodgerblue;
+}
+
+/* ABOUT PAGE CODE BELOW */
+
+.jumbo-about {
+    margin-bottom: 3%;
+}
+
+.about-paragraph {
+    border-bottom: 1px black dashed;
+    padding-bottom: 3%;
+    padding-left: 2%;
+}
+
+.subheading {
+    padding-left: 2%;
+}
+
+.strategy-row {
+    display: flex;
+}
+
+.strategy-one, .strategy-two, .strategy-three, .strategy-four {
+    display:flex;
+    flex-direction: column;
+    margin: 2%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
+
+.strategy-row h2 {
+    padding-top: 5%;
+}
+
+.learn-more {
+    text-decoration: none;
+    border: solid black 2px;
+    width: 30%;
+    height: 35px;
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 5%;
+}
+
+.learn-more:hover {
+    background-color: black;
+    color: white;
+    border: 2px red solid;
+}
+
+.bottom-section {
+    margin: 4% 2% 4% 2%;
+}
+
+/* KEYFRAME ANIMATION */ 
+
+#box-one, #box-two, #box-three, #box-four, #box-five, #box-six, #box-seven, #box-eight, #box-nine, #box-ten {
+    animation-name: box-animation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box-animation {
+    10%{
+        border: 5px solid teal;
+    }
+    20%{    
+        border: 5px solid gold;
+    }
+    30%{
+        border: 5px solid cadetblue;
+    }
+    40%{
+        border: 5px solid coral;
+    }
+    50%{
+        border: 5px solid crimson;
+    }
+    60%{
+        border: 5px solid forestgreen;
+    }
+    70%{
+        border: 5px solid darkorchid;
+    }
+    80%{
+        border: 5px solid hotpink;
+    }
+    90%{
+        border: 5px solid indigo;
+    }
+    100%{
+        border: 5px solid dodgerblue;
+    }
+
+}
